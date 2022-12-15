@@ -9,11 +9,14 @@ html {
   font-size: 14px;
 }
 
+.w-one-hundred{
+  width: 100%;
+}
+
 /* MOBILE FIRST */
 
 header {
   height: 60px;
-  width: 100%;
 }
 
 .logo {
@@ -21,17 +24,9 @@ header {
   color: #ff385c;
 }
 
-.wrapper {
-  width: 100%;
-}
-
 .home {
   width: 100%;
   padding: 24px;
-}
-
-.home-photo {
-  width: 100%;
 }
 
 .home-photo .app-img {
@@ -41,7 +36,6 @@ header {
 }
 
 .home-info {
-  width: 100%;
   margin-top: 10px;
   display: flex;
   justify-content: space-between;
@@ -73,13 +67,11 @@ header {
 
 @media screen and (min-width: 550px) {
   .wrapper {
-    width: 100%;
     display: flex;
     flex-wrap: wrap;
   }
 
   .logo {
-    width: 100%;
     margin: 0 auto;
     padding: 13px;
   }
@@ -140,7 +132,6 @@ header {
 @media screen and (min-width: 992px) {
   header {
     height: 100px;
-    width: 100%;
   }
 
   .logo {
@@ -161,7 +152,6 @@ header {
     margin-bottom: 20px;
   }
   .home-photo .app-img {
-    width: 100%;
     height: 300px;
     border-radius: 15px;
   }
