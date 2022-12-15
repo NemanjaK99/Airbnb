@@ -103,8 +103,10 @@ header {
     font-size: 13px;
   }
 
-  .home-name .home-rating {
+  .home-info .home-rating {
     width: 35%;
+    display: flex;
+    justify-content: flex-end;
   }
 
   .home-photo img {
@@ -136,6 +138,16 @@ header {
 
   .home-photo img {
     height: 310px;
+  }
+
+  .home-info .home-name {
+    width: 70%;
+  }
+
+  .home-info .home-rating {
+    width: 30%;
+    display: flex;
+    justify-content: flex-end;
   }
 }
 
