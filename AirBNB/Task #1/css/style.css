@@ -34,7 +34,7 @@ header {
   width: 100%;
 }
 
-.home-photo img {
+.home-photo .app-img {
   width: 100%;
   height: 400px;
   border-radius: 10px;
@@ -50,7 +50,7 @@ header {
   width: 70%;
 }
 
-.home-info .home-name h2 {
+.home-info .home-name .home-heading {
   font-size: 14px;
 }
 
@@ -58,7 +58,7 @@ header {
   width: 70%;
 }
 
-.home-info .home-rating i {
+.home-info .home-rating .rating-star {
   margin-right: 5px;
 }
 
@@ -99,7 +99,7 @@ header {
   .home-info .home-name {
     width: 65%;
   }
-  .home-info .home-name h2 {
+  .home-info .home-name .home-heading {
     font-size: 13px;
   }
 
@@ -109,7 +109,7 @@ header {
     justify-content: flex-end;
   }
 
-  .home-photo img {
+  .home-photo .app-img {
     height: 250px;
   }
 }
@@ -136,7 +136,7 @@ header {
     margin-bottom: 20px;
   }
 
-  .home-photo img {
+  .home-photo .app-img {
     height: 310px;
   }
 
@@ -176,7 +176,7 @@ header {
     height: 450px;
     margin-bottom: 20px;
   }
-  .home-photo img {
+  .home-photo .app-img {
     width: 100%;
     height: 300px;
     border-radius: 15px;
@@ -191,7 +191,7 @@ header {
     width: 70%;
   }
 
-  .home-info .home-name h2 {
+  .home-info .home-name .home-heading {
     font-size: 16px;
   }
 
@@ -218,7 +218,7 @@ header {
     margin-bottom: 20px;
   }
 
-  .home-info .home-name h2 {
+  .home-info .home-name .home-heading {
     font-size: 16px;
   }
 }
