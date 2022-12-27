@@ -9,7 +9,7 @@ html {
   font-size: 14px;
 }
 
-.w-one-hundred{
+.w-one-hundred {
   width: 100%;
 }
 
@@ -31,7 +31,7 @@ header {
 
 .home-photo .app-img {
   width: 100%;
-  height: 400px;
+  height: auto;
   border-radius: 10px;
 }
 
@@ -80,8 +80,8 @@ header {
     width: 50%;
     padding: 13px;
   }
-  
-  .home-info{
+
+  .home-info {
     display: flex;
     justify-content: space-between;
   }
@@ -91,7 +91,8 @@ header {
   }
 
   .home-photo .app-img {
-    height: 250px;
+    width: 100%;
+    height: auto;
   }
 }
 
@@ -118,7 +119,8 @@ header {
   }
 
   .home-photo .app-img {
-    height: 310px;
+    width: 100%;
+    height: auto;
   }
 
   .home-info {
@@ -148,12 +150,11 @@ header {
   }
   .home {
     width: 50%;
-    height: 450px;
     margin-bottom: 20px;
   }
   .home-photo .app-img {
-    height: 300px;
-    border-radius: 15px;
+    width: 100%;
+    height: auto;
   }
 
   .home-info {
@@ -161,7 +162,7 @@ header {
     justify-content: space-between;
     align-items: center;
   }
-  
+
   .home-info .home-name .home-heading {
     font-size: 16px;
   }
@@ -179,7 +180,6 @@ header {
   }
   .home {
     width: 33%;
-    height: 450px;
     margin-bottom: 20px;
   }
 
@@ -190,6 +190,10 @@ header {
   .home-info {
     display: flex;
     justify-content: space-between;
+  }
+  .home-photo .app-img {
+    width: 100%;
+    height: auto;
   }
 }
 
@@ -205,8 +209,11 @@ header {
   }
   .home {
     width: 25%;
-    height: 450px;
     padding: 30px;
     margin-bottom: 20px;
+  }
+  .home-photo .app-img {
+    width: 100%;
+    height: auto;
   }
 }
