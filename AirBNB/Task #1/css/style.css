@@ -19,14 +19,23 @@ header {
   height: 60px;
 }
 
+.wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  width: 95%;
+  margin: 0 auto;
+}
+
 .logo {
-  padding: 24px;
+  width: 95%;
+  margin: 0 auto;
+  padding: 15px;
   color: #ff385c;
 }
 
 .home {
   width: 100%;
-  padding: 24px;
+  padding: 15px;
 }
 
 .home-photo .app-img {
@@ -66,28 +75,9 @@ header {
 /* MEDIA 550 */
 
 @media screen and (min-width: 550px) {
-  .wrapper {
-    display: flex;
-    flex-wrap: wrap;
-  }
-
-  .logo {
-    margin: 0 auto;
-    padding: 13px;
-  }
-
   .home {
     width: 50%;
-    padding: 13px;
-  }
-
-  .home-info {
-    display: flex;
-    justify-content: space-between;
-  }
-
-  .home-info .home-name .home-heading {
-    font-size: 13px;
+    /* padding: 20px; */
   }
 
   .home-photo .app-img {
@@ -98,7 +88,7 @@ header {
 
 /* MEDIA 768 */
 
-@media screen and (min-width: 768px) {
+/* @media screen and (min-width: 768px) {
   .logo {
     width: 95%;
     margin: 0 auto;
@@ -127,29 +117,23 @@ header {
     display: flex;
     justify-content: space-between;
   }
-}
+} */
 
 /* MEDIA 992 */
 
 @media screen and (min-width: 992px) {
-  header {
-    height: 100px;
+  .wrapper {
+    width: 90%;
+    margin: 0 auto;
   }
 
   .logo {
-    width: 80%;
-    color: #ff385c;
+    width: 90%;
+    margin: 0 auto;
   }
 
-  .wrapper {
-    width: 80%;
-    margin: 0 auto;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-  }
   .home {
-    width: 50%;
+    width: 33%;
     margin-bottom: 20px;
   }
   .home-photo .app-img {
@@ -169,7 +153,7 @@ header {
 }
 
 /* MEDIA 1250 */
-
+/* 
 @media screen and (min-width: 1250px) {
   .wrapper {
     width: 80%;
@@ -195,7 +179,7 @@ header {
     width: 100%;
     height: auto;
   }
-}
+} */
 
 /* MEDIA 1500 */
 
@@ -205,12 +189,10 @@ header {
   }
   .logo {
     width: 90%;
-    padding: 30px;
+    /* padding: 30px; */
   }
   .home {
     width: 25%;
-    padding: 30px;
-    margin-bottom: 20px;
   }
   .home-photo .app-img {
     width: 100%;
