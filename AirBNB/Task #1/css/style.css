@@ -77,7 +77,6 @@ header {
 @media screen and (min-width: 550px) {
   .home {
     width: 50%;
-    /* padding: 20px; */
   }
 
   .home-photo .app-img {
@@ -86,45 +85,11 @@ header {
   }
 }
 
-/* MEDIA 768 */
-
-/* @media screen and (min-width: 768px) {
-  .logo {
-    width: 95%;
-    margin: 0 auto;
-    padding: 13px;
-  }
-
-  .wrapper {
-    width: 95%;
-    margin: 0 auto;
-    display: flex;
-    flex-wrap: wrap;
-  }
-
-  .home {
-    width: 50%;
-    padding: 13px;
-    margin-bottom: 20px;
-  }
-
-  .home-photo .app-img {
-    width: 100%;
-    height: auto;
-  }
-
-  .home-info {
-    display: flex;
-    justify-content: space-between;
-  }
-} */
-
 /* MEDIA 992 */
 
 @media screen and (min-width: 992px) {
   .wrapper {
     width: 90%;
-    margin: 0 auto;
   }
 
   .logo {
@@ -134,7 +99,6 @@ header {
 
   .home {
     width: 33%;
-    margin-bottom: 20px;
   }
   .home-photo .app-img {
     width: 100%;
@@ -152,35 +116,6 @@ header {
   }
 }
 
-/* MEDIA 1250 */
-/* 
-@media screen and (min-width: 1250px) {
-  .wrapper {
-    width: 80%;
-    margin: 0 auto;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-  }
-  .home {
-    width: 33%;
-    margin-bottom: 20px;
-  }
-
-  .home-info .home-name .home-heading {
-    font-size: 16px;
-  }
-
-  .home-info {
-    display: flex;
-    justify-content: space-between;
-  }
-  .home-photo .app-img {
-    width: 100%;
-    height: auto;
-  }
-} */
-
 /* MEDIA 1500 */
 
 @media screen and (min-width: 1500px) {
@@ -189,7 +124,6 @@ header {
   }
   .logo {
     width: 90%;
-    /* padding: 30px; */
   }
   .home {
     width: 25%;
