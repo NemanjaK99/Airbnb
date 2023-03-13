@@ -1,3 +1,38 @@
+// let wrapper = document.querySelector('.wrapper');
+
+// let article = `
+// <article class="home">
+// <div class="home-photo w-one-hundred">
+//   <img class="app-img" src="img/img2.jpg" alt="" />
+//   <div class="superhost"></div>
+//   <div class="save-home"></div>
+// </div>
+// <div class="home-info w-one-hundred">
+//   <div class="home-name">
+//     <h2 class="home-heading">Apartment in Paracin</h2>
+//   </div>
+//   <div class="home-rating">
+//     <p><i class="fa fa-star rating-star"></i>4.82(17)</p>
+//   </div>
+// </div>
+// <div class="apartment-info">
+//   <div class="apartment-name">
+//     <p>Studio Apartman br 5</p>
+//   </div>
+//   <div class="bed-number">1 bed</div>
+//   <div class="date">Nov 9-16</div>
+// </div>
+// <div class="price">
+//   <span class="price-tag">$23</span> night
+// </div>
+// </article>`;
+
+// for(i = 0; i < 12; i++){
+//     wrapper.innerHTML += article;
+// }
+
+
+
 let wrapper = document.querySelector('.wrapper');
 
 let article = document.createElement('article');
